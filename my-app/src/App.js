@@ -1,17 +1,14 @@
-import React from 'react';
-import Game from './components/Game/Game';
-import styles from './App.module.css';
+import styled from 'styled-components';
 
-const App = () => {
-	const currentPlayer = 'X';
-	const isGameEnded = false;
-	const isDraw = false;
+const Div = styled.div`
+	text-align: center;
+`;
 
+export const App = () => {
 	return (
-		<div className={styles.App}>
-			<Game currentPlayer={currentPlayer} isGameEnded={isGameEnded} isDraw={isDraw} />
-		</div>
+		<Div>
+			<i className="fa fa-calendar"></i>
+			<div>123</div>
+		</Div>
 	);
 };
-
-export default App;
