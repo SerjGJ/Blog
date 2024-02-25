@@ -4,7 +4,15 @@ import { TableRow } from '../table-row/table-row';
 import { useServerRequest } from '../../../../hooks';
 import styled from 'styled-components';
 
-const UserRowContainer = ({ className, id, login, registeredAt, roleId: userRoleId, roles, onUserRemove }) => {
+const UserRowContainer = ({
+	className,
+	id,
+	login,
+	registeredAt,
+	roleId: userRoleId,
+	roles,
+	onUserRemove,
+}) => {
 	const [initialRoleId, setInitialRoleId] = useState(userRoleId);
 	const [selectedRoleId, setSelectedRoleId] = useState(userRoleId);
 	const requestServer = useServerRequest();
@@ -34,7 +42,12 @@ const UserRowContainer = ({ className, id, login, registeredAt, roleId: userRole
 							</option>
 						))}
 					</select>
-					<Icon id="fa-floppy-o" margin="0 0 0 10px" disabled={isSaveButtonDisabled} onClick={() => onRoleSave(id, selectedRoleId)} />
+					<Icon
+						id="fa-floppy-o"
+						margin="0 0 0 10px"
+						disabled={isSaveButtonDisabled}
+						onClick={() => onRoleSave(id, selectedRoleId)}
+					/>
 				</div>
 			</TableRow>
 			<Icon id="fa-trash-o" margin="0 0 0 10px" onClick={onUserRemove} />
