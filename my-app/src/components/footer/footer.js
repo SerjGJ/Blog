@@ -7,7 +7,9 @@ const FooterContainer = ({ className }) => {
 	const [weather, setWeather] = useState('');
 
 	useEffect(() => {
-		fetch('https://api.openweathermap.org/data/2.5/weather?q=Magnitogorsk&units=metric&lang=ru&appid=00d3aecbe75c3f7476d1cd11a1105398')
+		fetch(
+			'https://api.openweathermap.org/data/2.5/weather?q=Magnitogorsk&units=metric&lang=ru&appid=00d3aecbe75c3f7476d1cd11a1105398',
+		)
 			.then((res) => res.json())
 			.then(({ name, main, weather }) => {
 				setCity(name);
