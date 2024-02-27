@@ -124,6 +124,13 @@
       "publishedAt": "2061-12-01 12:03",
       "title": "qqqqqqqqqqqqq",
       "content": "Значимость этих проблем настолько очевидна, что консультация с широким активом способствует подготовки и реализации модели развития. Таким образом постоянный количественный рост и сфера нашей активности требуют определения и уточнения существенных финансовых и административных условий. С другой стороны постоянный количественный рост и сфера нашей активности влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Товарищи! начало повседневной работы по формированию позиции позволяет оценить значение систем массового участия. Значимость этих проблем настолько очевидна, что консультация с широким активом представляет собой интересный эксперимент проверки форм развития. Повседневная практика показывает, что укрепление и развитие структуры позволяет оценить значение новых предложений"
+    },
+    {
+      "id": "777e",
+      "imageUrl": "https://fastly.picsum.photos/id/989/280/150.jpg?hmac=BVGGfLND-EPekTo19cQY4rkQLI_jUCbgM-stLN_AmSY",
+      "publishedAt": "2057-08-18 01:36",
+      "title": "С другой стороны консультация с широким активом влечет за собой процесс",
+      "content": "Create React App does not support custom PostCSS configurations and is incompatible with many important tools in the PostCSS ecosystem, like `postcss-import`.\n\nWe highly recommend using Vite, Parcel, Next.js, or Remix instead of Create React App. They provide an equivalent or better developer experience but with more flexibility, giving you more control over how Tailwind and PostCSS are configured."
     }
   ],
   "comments": [
@@ -224,8 +231,8 @@
       }
     },
     {
-      "id": "b124",
-      "hash": "0.16245529717906181943476440210361033678054809570313",
+      "id": "baf8",
+      "hash": "0.72445039179870840406749721296364441514015197753906",
       "user": {
         "id": "001",
         "login": "anton",
@@ -233,6 +240,17 @@
         "registeredAt": "2050-09-22",
         "roleId": 0
       }
+    },
+    {
+      "hash": "0.94079785550947403471866437030257657170295715332031",
+      "user": {
+        "id": "001",
+        "login": "anton",
+        "password": "qwe123",
+        "registeredAt": "2050-09-22",
+        "roleId": 0
+      },
+      "id": "nqS6rMk"
     }
   ]
 }
