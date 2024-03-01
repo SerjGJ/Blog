@@ -7,6 +7,7 @@ import { useServerRequest } from '../../../../hooks';
 import { savePostAsync } from '../../../../actions';
 import { sanizeContent } from './utils/sanitize-content';
 import styled from 'styled-components';
+import { PROP_TYPE } from '../../../../constants';
 
 const PostFormContainer = ({ className, post: { id, title, imageUrl, content, publishedAt } }) => {
 	const [imageUrlValue, setImageUrlValue] = useState(imageUrl);
@@ -75,3 +76,7 @@ export const PostForm = styled(PostFormContainer)`
 		white-space: pre-line;
 	}
 `;
+
+PostForm.propTypes = {
+	post: PROP_TYPE.POST.isRequired,
+};
